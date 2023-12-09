@@ -5,7 +5,7 @@ const { withNativeWind } = require("nativewind/metro");
 const path = require("path");
 
 const projectRoot = __dirname;
-const workspaceRoot = path.resolve(projectRoot, "../..");
+const workspaceRoot = path.resolve(projectRoot, "..");
 
 // Create the default Metro config
 const config = getDefaultConfig(projectRoot, { isCSSEnabled: true });

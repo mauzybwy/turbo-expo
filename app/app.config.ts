@@ -28,6 +28,9 @@ const defineConfig = (): ExpoConfig => ({
       backgroundColor: "#1F104A",
     },
   },
+  web: {
+    "bundler": "metro"
+  },
   // extra: {
   //   eas: {
   //     projectId: "your-eas-project-id",
